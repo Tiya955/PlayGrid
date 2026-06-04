@@ -1,1 +1,2 @@
-# PlayGrid
+
+This module implements the core OOP architecture for OS Quest. An abstract base class `Entity` defines the blueprint for all game characters, enforcing encapsulation through private attributes and abstraction through an abstract `attack()` method. Player subclasses (Warrior, Mage) and Enemy subclasses (Monster, BossMonster) inherit from Entity and each implement `attack()` differently, demonstrating inheritance and polymorphism.
